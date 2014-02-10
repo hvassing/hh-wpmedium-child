@@ -1,0 +1,78 @@
+/*
+Theme Name:   WPMedium Hvassing.com child
+Theme URI:    https://github.com/hvassing/hh-wpmedium-child
+Description:  WPMedium Child Theme
+Author:       Håvard Hvassing
+Author URI:   http://hvassing.com
+Template:     wpmedium
+Version: 1.4
+Tags: light, gray, white, one-column, two-columns, three-columns, custom-header, custom-menu, featured-images, sticky-post, theme-options, translation-ready
+Text Domain: wpmedium-child
+License: GNU GPL V3
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+*/
+
+@import url("../wpmedium/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.site-header {
+    background-position: center center;
+    background-size: 100%;
+    height: 16.250em;
+    padding: 5.0em 0; /*1.250em;*/
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.site-header-overlay {
+    background: #000;
+    height: 26.250em;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: none;
+}
+.site-header .site-avatar {
+    border-radius: 5.625em;
+    height: 5.625em;
+}
+
+.site-header h1, .site-header h2 {
+    color: #fff;
+    line-height: 1.2em;
+    margin: 0.750em auto;
+    text-align: center;
+    width: 100%;
+}
+
+.site-header h1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 2.750em;
+    line-height: 0.750em;
+}
+
+.site-header h2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 1.125em;
+}
+.site-header h1 a, .site-header h2 a {
+	color: #fff;
+}
+
+.pullquote {
+    margin: 48px -100px; 
+    -webkit-transition: margin .1s; 
+       -moz-transition: margin .1s; 
+        -ms-transition: margin .1s; 
+         -o-transition: margin .1s; 
+            transition: margin .1s;
+}
