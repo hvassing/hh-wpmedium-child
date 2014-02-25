@@ -10,7 +10,9 @@ get_header(); ?>
 
 			<header id="masthead" class="site-header" role="banner" style="background-image:url(<?php wpmedium_the_header_image(); ?>);">
 
-				<div class="site-header-overlay"></div>
+				<!--
+					<div class="site-header-overlay"></div>
+				-->
 
 				<hgroup>
 					<h1 class="site-title"><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
@@ -32,13 +34,15 @@ get_header(); ?>
 <?php if ( $first_post == true ) :
 	get_template_part( 'content', 'first' );
 	$first_post = false;
+
 else :
+
 	get_template_part( 'content' ); 
 endif;
 ?>
 
 <?php endwhile; ?>
-						
+
 
 					</div><!-- #content -->
 

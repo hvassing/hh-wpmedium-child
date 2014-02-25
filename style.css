@@ -4,7 +4,7 @@ Theme URI:    https://github.com/hvassing/hh-wpmedium-child
 Description:  WPMedium Child Theme
 Author:       Håvard Hvassing
 Author URI:   http://hvassing.com
-Template:     wpmedium
+Template:     WPmedium
 Version: 1.4
 Tags: light, gray, white, one-column, two-columns, three-columns, custom-header, custom-menu, featured-images, sticky-post, theme-options, translation-ready
 Text Domain: wpmedium-child
@@ -12,33 +12,57 @@ License: GNU GPL V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 */
 
-@import url("../wpmedium/style.css");
+@import url("../WPmedium/style.css");
 
-/* =Theme customization starts here
--------------------------------------------------------------- */
+/** Basics **/
+
+body {
+    background-color: #f9f9f9;
+    color: #1d1d1d;
+    font-family: "PT Serif", Georgia, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    position: relative;
+    width: 100% !important;
+}
+
+.pullquote {
+    margin: 48px -100px; 
+    -webkit-transition: margin .1s; 
+       -moz-transition: margin .1s; 
+        -ms-transition: margin .1s; 
+         -o-transition: margin .1s; 
+            transition: margin .1s;
+}
+
+.wrap {
+    padding-left: 1.563em;
+    padding-right: 1.563em;
+}
+
 .site-header {
-    background-position: center center;
+    background-position: center top;
     background-size: 100%;
     height: 16.250em;
-    padding: 5.0em 0; /*1.250em;*/
+    padding: 5.0em 1.250em;
     text-align: center;
-    max-width: 1600px;
-    margin: 0 auto;
 }
-.site-header-overlay {
-    background: #000;
-    height: 26.250em;
-    left: 0;
-    opacity: 0.4;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 0;
-    max-width: 1600px;
-    margin: 0 auto;
-    display: none;
+
+.site-header hgroup {
+    z-index: 10;
+    position: relative;
 }
+.site-header .site-logo {
+    border: 2px solid #fff;
+    border-radius: 5.625em;
+    height: 5.625em;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 5.625em;
+}
+
 .site-header .site-avatar {
     border-radius: 5.625em;
     height: 5.625em;
@@ -64,15 +88,82 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
     font-weight: 400;
     font-size: 1.125em;
 }
-.site-header h1 a, .site-header h2 a {
-	color: #fff;
+
+.site-header p {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+    width: 48em;
 }
 
-.pullquote {
-    margin: 48px -100px; 
-    -webkit-transition: margin .1s; 
-       -moz-transition: margin .1s; 
-        -ms-transition: margin .1s; 
-         -o-transition: margin .1s; 
-            transition: margin .1s;
+.site-header p a {
+    opacity: 0.7;
+}
+
+.site-header p a:hover {
+    opacity: 0.9;
+}
+
+.site-header p a, .site-header p a:hover {
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+.site-header p i {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+
+.site-header .header-sidebar {
+    color: #fff;
+    z-index: 10;
+    position: relative;
+}
+
+
+#main {
+    margin: 1.500em auto 3em auto;
+    width: 72em;
+}
+
+#content {
+    margin: 0 auto;
+    padding: 1em 0 2.500em 0;
+    position: relative;
+}
+
+.site-content {
+    float: none;
+    margin: 0;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+/** Responsive **/
+
+/* Full */
+@media (min-width: 78em) and (max-width: 90em) {
+}
+
+/* Wide */
+@media (min-width: 60em) and (max-width: 78em) {
+}
+
+/* Large */
+@media (min-width: 48em) and (max-width: 60em) {
+}
+
+/* Medium */
+@media (min-width: 24em) and (max-width: 48em) {
+}
+
+/* Small */
+@media (max-width: 24em) and (min-width: 20em) {
+}
+
+/* X-small */
+@media (max-width: 20em) {    
 }
