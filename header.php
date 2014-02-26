@@ -6,7 +6,7 @@
  */
 ?><!DOCTYPE html>
 
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> prefix="og: http://ogp.me/ns#">
 
 	<head>
 
@@ -31,6 +31,22 @@
 		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="all" />
 
 		<?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
+
+		<?php if( is_single() ) : ?>
+
+		<meta property="og:title" content="<?php trim( the_title() ) ?>" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="<?php the_permalink(); ?>" />
+		<meta property="og:description" content="" />
+			<?php if( has_post_thumbnail() ) : ?>
+			<?php
+				$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
+			?>
+
+		<meta property="og:image" content="<?php print $large_image_url[0]; ?>" />
+			<?php endif; ?>
+		<?php endif; ?>
+
 
 <?php wp_head(); ?>
 
