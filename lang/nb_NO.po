@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WPMedium 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/WPMedium\n"
 "POT-Creation-Date: 2014-02-12 15:56:19+00:00\n"
-"PO-Revision-Date: 2014-02-26 18:05+0100\n"
+"PO-Revision-Date: 2014-02-27 10:21+0100\n"
 "Last-Translator: Håvard Hvassing <hvassing@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: no_NO\n"
@@ -82,21 +82,19 @@ msgstr "Kommer snart"
 
 #: content-page.php:18 content-single.php:18
 msgid "Pages:"
-msgstr ""
+msgstr "Sider:"
 
 #: content-page.php:30 content-single.php:38 page.php:27 single.php:27
 msgid "Published"
 msgstr "Publisert"
 
 #: content-page.php:36 content-single.php:44
-#, fuzzy
 msgid "Show Comments"
-msgstr "Nyere kommentarer"
+msgstr "Vis kommentarer"
 
 #: content-page.php:37 content-single.php:45
-#, fuzzy
 msgid "Hide Comments"
-msgstr "Eldre kommentarer"
+msgstr "Skjul kommentarer"
 
 #: content-single.php:23
 msgid "This post also appears in"
@@ -207,7 +205,7 @@ msgstr ""
 
 #: functions.php:1353
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #: functions.php:1353
 msgid "By"
@@ -277,7 +275,7 @@ msgstr ""
 
 #: functions.php:1481
 msgid "Images"
-msgstr ""
+msgstr "Bilder"
 
 #: functions.php:1517
 msgid "WPMedium"
@@ -289,15 +287,15 @@ msgstr ""
 
 #: functions.php:1555
 msgid "Use Default Post Thumbnail"
-msgstr ""
+msgstr "Bruk standard miniatyrbilde"
 
 #: functions.php:1577
 msgid "Use local font files"
-msgstr ""
+msgstr "Bruk lokale font-filer"
 
 #: functions.php:1578
 msgid "Google API Fonts"
-msgstr ""
+msgstr "Google API Fonter"
 
 #: functions.php:1599
 msgid "Category"
@@ -309,11 +307,11 @@ msgstr "Merkelapper"
 
 #: functions.php:1609
 msgid "Footer"
-msgstr ""
+msgstr "Sidebunn"
 
 #: functions.php:1631
 msgid "None"
-msgstr ""
+msgstr "Ingen"
 
 #: functions.php:1632
 msgid "Copyright & Credits"
@@ -325,7 +323,7 @@ msgstr ""
 
 #: functions.php:1634
 msgid "Both"
-msgstr ""
+msgstr "Begge"
 
 #: functions.php:1652
 msgid "WPMedium Credits Line"
@@ -337,7 +335,7 @@ msgstr ""
 
 #: searchform.php:5
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #~ msgid "Recommend"
 #~ msgstr "Anbefalt"
