@@ -16,10 +16,10 @@
 		<?php 
 		$bloginfo_description = get_bloginfo( 'description' );
 		if( empty( $bloginfo_description  ) ) : ?>
-		<title><?php is_home() ? printf( '%s', get_bloginfo( 'name' ) ) : printf( '%s | %s', wp_title(''), get_bloginfo( 'name' ) ); ?></title>
+		<title><?php is_home() ? printf( '%s', get_bloginfo( 'name' ) ) : printf( '%s | %s', trim( the_title() ), get_bloginfo( 'name' ) ); ?></title>
 		
 		<?php else: ?>
-		<title><?php is_home() ? printf( '%s | %s', get_bloginfo( 'name' ), get_bloginfo( 'description' ) ) : printf( '%s | %s', wp_title(''), get_bloginfo( 'name' ) ); ?></title>
+		<title><?php is_home() ? printf( '%s | %s', get_bloginfo( 'name' ), get_bloginfo( 'description' ) ) : printf( '%s | %s', trim( the_title() ), get_bloginfo( 'name' ) ); ?></title>
 
 		<?php endif; ?>
 
@@ -49,6 +49,18 @@
 
 
 <?php wp_head(); ?>
+
+<script type="text/javascript">
+jQuery(window).load(function($) {
+	if(window.location.hash) {
+		//Puts hash in variable, and removes the # character
+		var hash = window.location.hash.substring(1); 
+		if( hash == 'comments') {
+			jQuery('#show_comments').click();
+		}
+	}
+});
+</script>
 
 	</head>
 	
