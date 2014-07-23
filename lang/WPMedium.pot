@@ -1,104 +1,101 @@
-# Copyright (C) 2013 Charlie MERLAND
+# Copyright (C) 2014 Charlie MERLAND
 # This file is distributed under the GNU GPL V3.
 msgid ""
 msgstr ""
-"Project-Id-Version: hh-wpmedium-child\n"
+"Project-Id-Version: WPMedium 1.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/WPMedium\n"
 "POT-Creation-Date: 2014-05-21 09:55:22+00:00\n"
-"PO-Revision-Date: 2014-07-23 22:13+0100\n"
-"Last-Translator: Håvard Hvassing <hvassing@gmail.com>\n"
-"Language-Team: \n"
-"Language: no_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.7\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: archive.php:29 index.php:49
 msgid "%d Post"
 msgid_plural "%d Posts"
-msgstr[0] "%s innlegg"
-msgstr[1] "%s innlegg"
+msgstr[0] ""
+msgstr[1] ""
 
 #: archive.php:30
 msgid "Posted On %s %s"
-msgstr "Publisert %s %s"
+msgstr ""
 
 #: archive.php:43 functions.php:1042
 msgid "Prev page"
-msgstr "Forrige side"
+msgstr ""
 
 #: archive.php:43 functions.php:1042
 msgid "Next page"
-msgstr "Neste side"
+msgstr ""
 
 #: comments.php:9
 msgid "One thought on %2$s"
 msgid_plural "%1$s thoughts on %2$s"
-msgstr[0] "Èn kommentar til &laquo; %2$s &raquo;"
-msgstr[1] "%1$s kommentarer til &laquo; %2$s &raquo;"
+msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:16
 msgid "Comment navigation"
-msgstr "Kommentarnavigering"
+msgstr ""
 
 #: comments.php:17
 msgid "Older Comments"
-msgstr "Eldre kommentarer"
+msgstr ""
 
 #: comments.php:18
 msgid "Newer Comments"
-msgstr "Nyere kommentarer"
+msgstr ""
 
 #: comments.php:23
 msgid "Comments are closed"
-msgstr "Kommentering er stengt"
+msgstr ""
 
 #: content-archive.php:12 content-page.php:12 content-single.php:12
 #: content.php:11
 msgid "Permalink to %s"
-msgstr "Permalenke til %s"
+msgstr ""
 
 #: content-none.php:5
 msgid "No posts"
-msgstr "Ingen artikler"
+msgstr ""
 
 #: content-none.php:9
 msgid "Get Started %s"
-msgstr "Kom i gang %s"
+msgstr ""
 
 #: content-none.php:13
 msgid "Nothing Found"
-msgstr "Kunne ikke finne noe"
+msgstr ""
 
 #: content-none.php:17
 msgid "No Results Found"
-msgstr "Kunne ikke finne noe"
+msgstr ""
 
 #: content-none.php:24 content-none.php:28
 msgid "Coming soon"
-msgstr "Kommer snart"
+msgstr ""
 
 #: content-page.php:18 content-single.php:18
 msgid "Pages:"
-msgstr "Sider:"
+msgstr ""
 
 #: content-page.php:30 content-single.php:38 page.php:27 single.php:27
 msgid "Published"
-msgstr "Publisert"
+msgstr ""
 
 #: content-page.php:36 content-single.php:44
 msgid "Show Comments"
-msgstr "Vis kommentarer"
+msgstr ""
 
 #: content-page.php:37 content-single.php:45
 msgid "Hide Comments"
-msgstr "Skjul kommentarer"
+msgstr ""
 
 #: content-single.php:23
 msgid "This post also appears in"
-msgstr "Denne artikkelen finnes også i"
+msgstr ""
 
 #: functions.php:38 functions.php:133
 msgid "Footer Sidebar"
@@ -106,13 +103,12 @@ msgstr ""
 
 #: functions.php:50
 msgid "Primary Menu"
-msgstr "Hovedmeny"
+msgstr ""
 
 #: functions.php:71
-#, fuzzy
 msgctxt "header image description"
 msgid "WPMedium"
-msgstr "WPMedium"
+msgstr ""
 
 #: functions.php:120
 msgid "Header Sidebar"
@@ -132,27 +128,27 @@ msgstr ""
 
 #: functions.php:361 functions.php:1042
 msgid "Load More"
-msgstr "Hent flere artikler"
+msgstr ""
 
 #: functions.php:613
 msgid "By %s"
-msgstr "Av %s"
+msgstr ""
 
 #: functions.php:619
 msgid "In"
-msgstr "I"
+msgstr ""
 
 #: functions.php:622
 msgid "Edit"
-msgstr "Rediger"
+msgstr ""
 
 #: functions.php:978 functions.php:982 functions.php:1011 functions.php:1015
 msgid "Newest"
-msgstr "Nyest"
+msgstr ""
 
 #: functions.php:979 functions.php:983 functions.php:1012 functions.php:1016
 msgid "Oldest"
-msgstr "Eldst"
+msgstr ""
 
 #: functions.php:1085 functions.php:1098
 msgid "Permalink for &laquo; %s &raquo;"
@@ -164,28 +160,27 @@ msgstr ""
 
 #: functions.php:1286
 msgid "Facebook Profile"
-msgstr "Facebook-profil"
+msgstr ""
 
 #: functions.php:1290
 msgid "Twitter Profile"
-msgstr "Twitter-profil"
+msgstr ""
 
 #: functions.php:1294
 msgid "Google+ Profile"
-msgstr "Google+-profil"
+msgstr ""
 
 #: functions.php:1302
 msgid "Social Settings"
-msgstr "Sosiale medier-innstillinger"
+msgstr ""
 
 #: functions.php:1328
 msgid "Custom Social Networks"
 msgstr ""
 
 #: functions.php:1337 functions.php:1343
-#, fuzzy
 msgid "Custom Profile #%d"
-msgstr "LastFm-profil"
+msgstr ""
 
 #: functions.php:1357
 msgid ""
@@ -209,20 +204,19 @@ msgstr ""
 
 #: functions.php:1408
 msgid "Theme"
-msgstr "Tema"
+msgstr ""
 
 #: functions.php:1408
 msgid "By"
-msgstr "Av"
+msgstr ""
 
 #: functions.php:1415
-#, fuzzy
 msgid "W Background Color"
-msgstr "Bakgrunnsfarge"
+msgstr ""
 
 #: functions.php:1419
 msgid "Text Color"
-msgstr "Tekstfarge"
+msgstr ""
 
 #: functions.php:1423
 msgid "Header Overlay Color"
@@ -234,49 +228,43 @@ msgstr ""
 
 #: functions.php:1432
 msgid "Title Color"
-msgstr "Tittelfarge"
+msgstr ""
 
 #: functions.php:1433
 msgid "Title Hover Color"
-msgstr "Tittelfarge ved mus-over"
+msgstr ""
 
 #: functions.php:1437
-#, fuzzy
 msgid "Site Menu Background Color"
-msgstr "Bakgrunnsfarge"
+msgstr ""
 
 #: functions.php:1442
 msgid "Link Color"
-msgstr "Lenkefarge"
+msgstr ""
 
 #: functions.php:1443
 msgid "Link Hover Color"
-msgstr "Lenkefarge ved mus-over"
+msgstr ""
 
 #: functions.php:1447
-#, fuzzy
 msgid "Footer Text Color"
-msgstr "Tekstfarge"
+msgstr ""
 
 #: functions.php:1451
-#, fuzzy
 msgid "Footer Background Color"
-msgstr "Bakgrunnsfarge"
+msgstr ""
 
 #: functions.php:1455
-#, fuzzy
 msgid "Footer Titles Color"
-msgstr "Tittelfarge"
+msgstr ""
 
 #: functions.php:1462
-#, fuzzy
 msgid "Logo"
-msgstr "Sidelogo"
+msgstr ""
 
 #: functions.php:1466
-#, fuzzy
 msgid "W Image"
-msgstr "Last opp bilde"
+msgstr ""
 
 #: functions.php:1470
 msgid "Default Post Thumbnail"
@@ -284,12 +272,13 @@ msgstr ""
 
 #: functions.php:1540
 msgid "Images"
-msgstr "Bilder"
+msgstr ""
 
+#. #-#-#-#-#  WPMedium.pot (WPMedium 1.5)  #-#-#-#-#
 #. Theme Name of the plugin/theme
 #: functions.php:1576
 msgid "WPMedium"
-msgstr "WPMedium"
+msgstr ""
 
 #: functions.php:1595
 msgid "AJAX Posts Load"
@@ -297,31 +286,31 @@ msgstr ""
 
 #: functions.php:1614
 msgid "Use Default Post Thumbnail"
-msgstr "Bruk standard miniatyrbilde"
+msgstr ""
 
 #: functions.php:1636
 msgid "Use local font files"
-msgstr "Bruk lokale font-filer"
+msgstr ""
 
 #: functions.php:1637
 msgid "Google API Fonts"
-msgstr "Google API Fonter"
+msgstr ""
 
 #: functions.php:1658
 msgid "Category"
-msgstr "Kategori"
+msgstr ""
 
 #: functions.php:1659
 msgid "Post Tag"
-msgstr "Merkelapper"
+msgstr ""
 
 #: functions.php:1668
 msgid "Footer"
-msgstr "Sidebunn"
+msgstr ""
 
 #: functions.php:1690
 msgid "None"
-msgstr "Ingen"
+msgstr ""
 
 #: functions.php:1691
 msgid "Copyright & Credits"
@@ -333,7 +322,7 @@ msgstr ""
 
 #: functions.php:1693
 msgid "Both"
-msgstr "Begge"
+msgstr ""
 
 #: functions.php:1711
 msgid "WPMedium Credits Line"
@@ -361,7 +350,7 @@ msgstr ""
 
 #: searchform.php:5
 msgid "Search"
-msgstr "Søk"
+msgstr ""
 
 #. Theme URI of the plugin/theme
 msgid "http://www.caercam.org/wpmedium"
@@ -378,75 +367,3 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://www.caercam.org/"
 msgstr ""
-
-#~ msgid "Recommend"
-#~ msgstr "Anbefalt"
-
-#~ msgid "Recent"
-#~ msgstr "Nylig"
-
-#~ msgid "Delete Image"
-#~ msgstr "Slett bilde"
-
-#~ msgid "Upload Logo"
-#~ msgstr "Last opp logo"
-
-#~ msgid "Delete Logo"
-#~ msgstr "Slett logo"
-
-#~ msgid "Use As Logo"
-#~ msgstr "Bruk som logo"
-
-#~ msgid "General Settings"
-#~ msgstr "Generelle innstillinger"
-
-#~ msgid "General Settings Help"
-#~ msgstr "Hjelp til generelle innstillinger"
-
-#~ msgid "Site Logo Help"
-#~ msgstr "Hjelp til Sidelogo"
-
-#~ msgid "Ajax Browsing"
-#~ msgstr "Ajaxsurfing"
-
-#~ msgid "Ajax Browsing Help"
-#~ msgstr "Hjelp til Ajaxsurfing"
-
-#~ msgid "Toggle Ajax Browsing"
-#~ msgstr "Slå av/på Ajaxsurfing"
-
-#~ msgid "Display Settings"
-#~ msgstr "Visningsinnstillinger"
-
-#~ msgid "Display Settings Help"
-#~ msgstr "Hjelp til Visningsinnstillinger"
-
-#~ msgid "Background Color Help %s"
-#~ msgstr "Hjelp til Bakgrunnsfarge %s"
-
-#~ msgid "Text Color Help %s"
-#~ msgstr "Hjelp til Tekstfarge %s"
-
-#~ msgid "Social Settings Help"
-#~ msgstr "Hjelp til Sosiale medier-innstillinger"
-
-#~ msgid "Flickr Profile"
-#~ msgstr "Flickr-profil"
-
-#~ msgid "DeviantArt Profile"
-#~ msgstr "DeviantArt-profil"
-
-#~ msgid "Blogger Profile"
-#~ msgstr "Blogger-profil"
-
-#~ msgid "Tumblr Profile"
-#~ msgstr "Tumblr-profil"
-
-#~ msgid "Reddit Profile"
-#~ msgstr "Reddit-profil"
-
-#~ msgid "Vimeo Profile"
-#~ msgstr "Vimeo-profil"
-
-#~ msgid "Youtube Profile"
-#~ msgstr "Youtube-profil"
