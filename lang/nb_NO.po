@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: hh-wpmedium-child\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/WPMedium\n"
 "POT-Creation-Date: 2014-05-21 09:55:22+00:00\n"
-"PO-Revision-Date: 2014-07-23 22:13+0100\n"
+"PO-Revision-Date: 2014-08-08 23:29+0100\n"
 "Last-Translator: Håvard Hvassing <hvassing@gmail.com>\n"
 "Language-Team: \n"
 "Language: no_NO\n"
@@ -102,7 +102,7 @@ msgstr "Denne artikkelen finnes også i"
 
 #: functions.php:38 functions.php:133
 msgid "Footer Sidebar"
-msgstr ""
+msgstr "Sidebunn sidebar"
 
 #: functions.php:50
 msgid "Primary Menu"
@@ -116,7 +116,7 @@ msgstr "WPMedium"
 
 #: functions.php:120
 msgid "Header Sidebar"
-msgstr ""
+msgstr "Sidetopp sidebar"
 
 #: functions.php:122
 msgid ""
@@ -156,11 +156,11 @@ msgstr "Eldst"
 
 #: functions.php:1085 functions.php:1098
 msgid "Permalink for &laquo; %s &raquo;"
-msgstr ""
+msgstr "Permalenke for &laquo; %s &raquo;"
 
 #: functions.php:1258
 msgid "WPMedium Theme Options"
-msgstr ""
+msgstr "WPMedium temainnstillinger"
 
 #: functions.php:1286
 msgid "Facebook Profile"
@@ -183,9 +183,8 @@ msgid "Custom Social Networks"
 msgstr ""
 
 #: functions.php:1337 functions.php:1343
-#, fuzzy
 msgid "Custom Profile #%d"
-msgstr "LastFm-profil"
+msgstr "Annen profil #%d"
 
 #: functions.php:1357
 msgid ""
@@ -197,7 +196,7 @@ msgstr ""
 
 #: functions.php:1380
 msgid "Profile Link"
-msgstr ""
+msgstr "Profillenke"
 
 #: functions.php:1381
 msgid "Custom Icon"
@@ -205,7 +204,7 @@ msgstr ""
 
 #: functions.php:1408
 msgid "Proudly Powered By"
-msgstr ""
+msgstr "Stolt drevet av"
 
 #: functions.php:1408
 msgid "Theme"
@@ -241,9 +240,8 @@ msgid "Title Hover Color"
 msgstr "Tittelfarge ved mus-over"
 
 #: functions.php:1437
-#, fuzzy
 msgid "Site Menu Background Color"
-msgstr "Bakgrunnsfarge"
+msgstr "Bakgrunnsfarge for sidemenyen"
 
 #: functions.php:1442
 msgid "Link Color"
@@ -254,19 +252,16 @@ msgid "Link Hover Color"
 msgstr "Lenkefarge ved mus-over"
 
 #: functions.php:1447
-#, fuzzy
 msgid "Footer Text Color"
-msgstr "Tekstfarge"
+msgstr "Tekstfarge i sidebunn"
 
 #: functions.php:1451
-#, fuzzy
 msgid "Footer Background Color"
-msgstr "Bakgrunnsfarge"
+msgstr "Bakgrunnsfarge sidebunn"
 
 #: functions.php:1455
-#, fuzzy
 msgid "Footer Titles Color"
-msgstr "Tittelfarge"
+msgstr "Tittelfarge i sidebunn"
 
 #: functions.php:1462
 #, fuzzy
@@ -280,7 +275,7 @@ msgstr "Last opp bilde"
 
 #: functions.php:1470
 msgid "Default Post Thumbnail"
-msgstr ""
+msgstr "Standard innleggsbilde"
 
 #: functions.php:1540
 msgid "Images"
@@ -325,11 +320,11 @@ msgstr "Ingen"
 
 #: functions.php:1691
 msgid "Copyright & Credits"
-msgstr ""
+msgstr "Copyright & Opphav"
 
 #: functions.php:1692
 msgid "Widget Area"
-msgstr ""
+msgstr "Widget-område"
 
 #: functions.php:1693
 msgid "Both"
@@ -345,19 +340,19 @@ msgstr ""
 
 #: functions.php:1749
 msgid "Previous/Next Post links"
-msgstr ""
+msgstr "Forrige/neste innlegglenker"
 
 #: functions.php:1753
 msgid "Small"
-msgstr ""
+msgstr "Liten"
 
 #: functions.php:1754
 msgid "Large"
-msgstr ""
+msgstr "Stor"
 
 #: functions.php:1755
 msgid "Full"
-msgstr ""
+msgstr "Full"
 
 #: searchform.php:5
 msgid "Search"
@@ -369,7 +364,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid "Clean and simple Medium like WordPress theme"
-msgstr ""
+msgstr "Et stilrent og enkelt WordPress-tema, basert på Medium"
 
 #. Author of the plugin/theme
 msgid "Charlie MERLAND"
