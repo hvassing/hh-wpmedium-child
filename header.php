@@ -50,17 +50,7 @@
 
 <?php wp_head(); ?>
 
-<script type="text/javascript">
-jQuery(window).load(function($) {
-	if(window.location.hash) {
-		//Puts hash in variable, and removes the # character
-		var hash = window.location.hash.substring(1); 
-		if( hash == 'comments') {
-			jQuery('#show_comments').click();
-		}
-	}
-});
-</script>
+
 
 	</head>
 	
